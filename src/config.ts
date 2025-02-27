@@ -9,8 +9,8 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
-  logo: "/logo.webp",
+  name: "Ashiq Hussain",
+  logo: "/hero1.png",
   email: "tim@witzdam.com",
 };
 
@@ -36,13 +36,13 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/mdashiqueh",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:",
     icon: "mdi:email",
   },
 ];
@@ -50,14 +50,14 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Ashiq Hussain",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "a passionate Frontend Developer and Graphic Designer, crafting visually stunning, user-friendly websites and impactful designs that bring ideas to life with clean code and creative aesthetics.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Proffesor & Developer",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "Hello, I'm Md Ashique Hussain, a passionate Frontend Developer and Graphic Designer",
   socialLinks: socialLinks,
   links: [
     {
@@ -74,18 +74,17 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
-    description:
-      "Full time student from Germany who loves building cool things using code.",
+    title: "About | Ashiq Hussain",
+    description: "passionate Frontend Developer and Graphic Designer",
     image: identity.logo,
   },
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+I'm Ashiq Hussain, an assistant proffesor and passionate Frontend Developer and Graphic Designer.
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+  I craft visually stunning, user-friendly websites<br/><br/>
+my designs bring ideas to life with clean code and creative aesthetics`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -96,25 +95,25 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `I've worked at Institutions and with a variety of technologies and tools to build cool things.`, // Markdown is supported
     items: [
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
+          name: "Assistant Professor",
+          image: "/lords.webp",
           url: "https://github.com/TimWitzdam",
         },
-        date: "2021 - Present",
+        date: "2023 - Present",
       },
       {
-        title: "Software Developer",
+        title: "Front-End Developer Intern",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
+          name: "NullClass",
+          image: "/nullclass.png",
           url: "https://github.com/TimWitzdam",
         },
-        date: "2019 - 2021",
+        date: "2022 - 2023",
       },
     ],
   },
@@ -127,15 +126,15 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "Projects | Ashiq Hussain",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
   subtitle: "Check out what I've been working on.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "Personal Portfolio",
+      description: "Developed a personal portfolio website to showcase my skills, projects, and experiences.",
       image: "/demo-2.jpg",
       year: "2024",
       url: "https://github.com/TimWitzdam",
