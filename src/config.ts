@@ -135,22 +135,22 @@ export const projectsPageContent: ProjectPageContent = {
     {
       title: "Personal Portfolio",
       description: "Developed a personal portfolio website to showcase my skills, projects, and experiences.",
-      image: "/demo-2.jpg",
-      year: "2024",
+      image: "/project1.png",
+      year: "",
       url: "https://github.com/TimWitzdam",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "Library Management System",
+      description: "Developed a web-based Library Management System as a part of my coursework. The system allows librarians to manage book inventory, track borrowing and returns, and generate reports. Users can search and reserve books, and receive notifications for due dates.",
       image: "/demo-2.jpg",
-      year: "2024",
+      year: "",
       url: "https://github.com/TimWitzdam",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "Hospital Management System",
+      description: " Developed a Hospital Management System as a part of my coursework. The system aimed to streamline hospital operations and improve patient care. It included features such as patient registration, appointment scheduling, medical record management, billing, and reporting.",
       image: "/demo-2.jpg",
-      year: "2024",
+      year: "",
       url: "https://github.com/TimWitzdam",
     },
   ],
@@ -159,9 +159,9 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
+    title: "Awards | Ashiq Hussain",
+    description: "Awards, Achievements and ideas.",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Awards, Achievements and ideas.",
 };
